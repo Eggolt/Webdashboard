@@ -1,7 +1,7 @@
 services:
   fastapi:
     public: true
-    image: eggolt/website:latest
+    image: Eggolt/website:latest
     build: .
     replicas: 1
     ports:
