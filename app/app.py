@@ -16,5 +16,5 @@ def get_db():
 
 @app.get("/")
 def welcome(db: Session=Depends(get_db)):
-    x = crud.get_salary(db)
+    x = crud.get_coin(db)
     return x
