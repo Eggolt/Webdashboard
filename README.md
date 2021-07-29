@@ -1,2 +1,2 @@
-# Coinview
+# NFL Dashboard
  Dashboard Project
