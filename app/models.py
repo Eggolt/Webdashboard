@@ -2,7 +2,7 @@ from sqlalchemy import Column, Float, String, Integer, Numeric
 from .database import Base
 
 class salary(Base):
-    _tablename__ = "salary"
+    __tablename__ = "salary"
     id = Column(Integer, primary_key=True, index=True)
     player = Column(String, unique=True, index=True)
     fieldposition = Column(String)
